@@ -1,0 +1,10 @@
+# data.yaml
+path: /Users/ananya/Desktop/BRCA/dataset  # Absolute path to your dataset folder
+train: train/images                           # Relative to path
+val: val/images                               # Relative to path
+
+# Clinical Target Classes
+nc: 2
+names:
+  0: mass            # Solid tumor tissue lumps / spiculated masses
+  1: calcification   # High-contrast micro-calcification clusters

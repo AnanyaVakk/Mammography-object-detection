@@ -1,4 +1,5 @@
 # Mammography-object-detection
+
 This project is a computer vision pipeline built using Ultralytics YOLO11 for detecting breast masses and calcifications in mammography scans from the INbreast dataset.
 
 The main goal of this project was to solve a major issue in medical object detection:
@@ -74,6 +75,15 @@ Key improvements:
 
 ---
 
+# Future Enhancements
+
+- Multi-dataset validation (CBIS-DDSM, VinDr-Mammo)
+- Segmentation-based lesion localization
+- Real-time folder monitoring for automatic inference
+- Improved small-object augmentation techniques
+
+---
+
 # Technologies Used
 
 - Python
@@ -82,5 +92,11 @@ Key improvements:
 - OpenCV
 - NumPy
 - pydicom
-
+- matplotlib
+  
 ---
+
+# Author
+
+Ananya Vakkalanka
+B.Tech Biotechnology 

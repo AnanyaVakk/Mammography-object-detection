@@ -4,12 +4,12 @@ import glob
 from ultralytics import YOLO
 
 # Define paths
-IMAGE_DIR = "/Users/ananya/Desktop/BRCA/gcf_sliced_dataset/val/images"
-OUTPUT_DIR = "/Users/ananya/Desktop/BRCA/outputs/triage_predictions"
+IMAGE_DIR = "/Users/val/images"
+OUTPUT_DIR = "/Users/outputs/triage_predictions"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Load your custom fine-tuned weights file
-model = YOLO("/Users/ananya/Desktop/BRCA/runs/detect/gcf_brca_fixed_matrix/weights/best.pt")
+model = YOLO("/Users/weights/best.pt")
 
 # Grab a clean sequence of test frames
 test_frames = sorted(glob.glob(os.path.join(IMAGE_DIR, "*.jpg")))[:20]

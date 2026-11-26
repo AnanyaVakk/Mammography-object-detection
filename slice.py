@@ -7,8 +7,8 @@ def slice_meta_dataset(split):
     img_paths = glob.glob(f"./dataset/{split}/images/*.jpg")
     
     # New output directories for our high-resolution sliced dataset
-    out_img_dir = f"./gcf_sliced_dataset/{split}/images"
-    out_lab_dir = f"./gcf_sliced_dataset/{split}/labels"
+    out_img_dir = f"./{split}/images"
+    out_lab_dir = f"./{split}/labels"
     os.makedirs(out_img_dir, exist_ok=True)
     os.makedirs(out_lab_dir, exist_ok=True)
     

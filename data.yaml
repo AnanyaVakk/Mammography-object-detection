@@ -1,5 +1,5 @@
 # data.yaml
-path: /Users/ananya/Desktop/BRCA/dataset  # Absolute path to your dataset folder
+path: /Users/dataset  # Absolute path to your dataset folder
 train: train/images                           # Relative to path
 val: val/images                               # Relative to path
 

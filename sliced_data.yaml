@@ -1,5 +1,5 @@
 # sliced_data.yaml
-path: /Users/ananya/Desktop/BRCA/gcf_sliced_dataset
+path: /Users/...
 train: train/images
 val: val/images
 

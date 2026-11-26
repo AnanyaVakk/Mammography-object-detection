@@ -15,7 +15,7 @@ def main():
         fraction=1.0,       # Use full dataset resources
         degrees=15.0,       # Inject data augmentations to prevent overfitting
         flipud=0.5,         # Flip vertically (perfect for shifting medical scans)
-        name="gcf_brca_fixed_matrix"
+        name="..."
     )
 
 if __name__ == "__main__":
